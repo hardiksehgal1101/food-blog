@@ -1,0 +1,25 @@
+.container__text{
+    max-width: 50%;
+    padding: 10px;
+    margin: 30px;
+    font-size: 1.2rem;
+    
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    max-width: 100%;
+    width: 100%;
+}
+.image_1{
+    margin: 20px;
+    padding-right: 10px;
+    align-items: center;
+    image-resolution: auto;
+    width: 100%;
+    max-width: 600px;
+    overflow: hidden;
+    height: 400px;
+}

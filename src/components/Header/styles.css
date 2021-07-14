@@ -1,0 +1,42 @@
+
+header {
+    padding: 10px;
+padding-top: 24px;
+padding-bottom: 24px;
+
+
+}
+nav {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex:1;
+    justify-content: space-between;
+   
+}
+
+.logo {
+    color: black;
+    padding-left: 10px;
+    text-align: center;
+    
+}
+
+.grow {
+    flex:1;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navigation > li {
+    list-style-type: none;
+    padding-right: 20px;
+    
+}
+
+.navigation > li > a {
+    color:black;
+}
+
