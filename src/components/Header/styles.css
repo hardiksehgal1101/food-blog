@@ -1,42 +1,41 @@
-
 header {
-    padding: 10px;
-padding-top: 24px;
-padding-bottom: 24px;
-
-
+	padding: 10px;
+	padding-top: 24px;
+	padding-bottom: 24px;
 }
 nav {
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    flex:1;
-    justify-content: space-between;
-   
+	max-width: 1200px;
+	margin: auto;
+	display: flex;
+    flex-direction: column;
+	flex: 1;
+	justify-content: space-between;
+    align-items: center;
+    height: 600px;
 }
 
 .logo {
-    color: black;
-    padding-left: 10px;
-    text-align: center;
-    
+	color: black;
+	padding-left: 10px;
+	text-align: center;
 }
 
 .grow {
-    flex:1;
+	flex: 1;
 }
 .navigation {
-    display: flex;
-    justify-content: space-between;
-    
+	display: flex;
+	justify-content: space-between;
+    flex-direction: column;
+    height: 500px;
+
 }
 .navigation > li {
-    list-style-type: none;
-    padding-right: 20px;
-    
+	list-style-type: none;
+	padding-right: 20px;
+    transform: rotate(0.25turn);
 }
 
 .navigation > li > a {
-    color:black;
+	color: black;
 }
-

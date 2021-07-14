@@ -2,3 +2,23 @@
 a{
   text-decoration: none;
 }
+
+.app__header {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.list__section {
+  margin-top: 64px;
+  display: flex;
+  margin-bottom: 128px;
+}
+.content__section {
+  width: 60%;
+  padding-right: 32px;
+}
+
+.list {
+  width: 40%;
+  padding-left: 32px;
+}

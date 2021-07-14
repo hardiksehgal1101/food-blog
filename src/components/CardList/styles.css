@@ -1,0 +1,20 @@
+.cardList__row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    /* flex-wrap: wrap; */
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    flex:1;
+
+}
+
+.cardList__container {
+    background-color: rgba(0,0,0,0.12);
+    padding: 32px;
+    margin-top: 64px;
+  }
+.container__title {
+    text-align: center;
+}
